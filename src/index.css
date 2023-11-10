@@ -4,8 +4,9 @@ body {
 
 .main {
   height: 100vh;
-  width: 100vw;
+  width: 40vw;
   background-color: #bae7ff;
+  margin: 0 auto
 }
 
 .title {
@@ -18,7 +19,8 @@ body {
 
 .bottom {
   position: fixed;
-  width: 100%;
-  left: 0;
+  width: 40vw;
+  left: 50%;
   bottom: 0;
+  transform: translateX(-50%)
 }

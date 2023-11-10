@@ -73,7 +73,7 @@ export default class App extends Component {
               placeholder="input message and send"
               enterButton="Send"
               value={this.state.searchVal}
-              size="large"
+              // size="large"
               onChange={(e) => this.setState({ searchVal: e.target.value })}
               onSearch={value => this.onButtonClicked(value)}
             />
