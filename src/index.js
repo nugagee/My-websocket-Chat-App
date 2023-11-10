@@ -53,7 +53,7 @@ export default class App extends Component {
         {this.state.isLoggedIn ?
         <div>
           <div className="title">
-            <Text id="main-heading" type="secondary" style={{ fontSize: '36px' }}>Websocket Chat: {this.state.userName}</Text>
+            <Text id="main-heading" type="secondary" style={{ fontSize: '36px' }}>theTechBoi.nugagee Chat App: {this.state.userName}</Text>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', paddingBottom: 50 }} id="messages">
             {this.state.messages.map(message => 
@@ -73,7 +73,7 @@ export default class App extends Component {
               placeholder="input message and send"
               enterButton="Send"
               value={this.state.searchVal}
-              // size="large"
+              size="large"
               onChange={(e) => this.setState({ searchVal: e.target.value })}
               onSearch={value => this.onButtonClicked(value)}
             />
